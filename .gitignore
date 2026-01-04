@@ -6,3 +6,12 @@ node_modules
 # CDK asset staging directory
 .cdk.staging
 cdk.out
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Lambda layers (dependências instaladas)
+layers/**/python/*
+!layers/**/python/requirements.txt
